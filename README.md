@@ -3,7 +3,7 @@
 ```bash
   # after cloning the repo
   
-  cd backend
-  npm i
-  npm start
+  ####open cmd/terminal with root folder path
+  #####npm i
+  ######npm start
 
