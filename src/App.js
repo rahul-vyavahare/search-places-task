@@ -98,7 +98,7 @@ placeholder="Search places..." onKeyDown={handleKeyPress}/>
 </table>
 {tableData && tableData.length===0 && <span>{status}</span>}
 
-{tableData && tableData.length>0 && <div className="bottom-footer"><span>pagination</span>
+{tableData && <div className="bottom-footer">{tableData.length>0?<span>pagination</span>:null}
 <span><input type="number" className="limit-box" name="limit" value={limit} onChange={handleChange}/></span></div>}
 
 </div>

@@ -57,6 +57,10 @@ body {
   box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
   
 }
+.search-container:not(:focus-within){
+ 
+ background-color: rgb(233, 236, 239);
+}
 .enter-info{
   font-size: 1rem;
   border-color: rgb(222, 226, 230);
